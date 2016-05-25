@@ -83,7 +83,7 @@
                 android:textColor="@color/textcolorcplor"
                 android:layout_margin="5dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="2. The staff who delever my meals are neat and clean."
+                android:text="2. The staff who deliver my meals are neat and clean."
                 android:id="@+id/textw" />
 
 
@@ -147,7 +147,7 @@
                     android:textColor="@color/textcolorcplor"
                     android:layout_margin="5dp"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="3. The meals taste good."
+                    android:text="3. The meals taste  good."
                     android:id="@+id/xtw" />
 
 

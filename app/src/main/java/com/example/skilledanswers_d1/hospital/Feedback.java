@@ -314,8 +314,10 @@ String pdf="feedback"+dbLite.getCount().get(0).get_count()+".pdf";
                 e.printStackTrace();
             }
             document1.close();
-            Toast.makeText(Feedback.this, "Thank you", Toast.LENGTH_SHORT).show();
-            finish();
+//            Toast.makeText(Feedback.this, "Thank you", Toast.LENGTH_SHORT).show();
+            ///////////////////////////////////////////////////////////////////////   end of projuct
+            Intent intent=new Intent(this,ThankuActivity.class);
+            startActivity(intent);
 
         }
     }
@@ -387,7 +389,7 @@ String pdf="feedback"+dbLite.getCount().get(0).get_count()+".pdf";
         prPersinalInfo.add("\nName -->\n"+editTextname.getText().toString()+"\n"+
                         "Room no -->\n"+editTextroomno.getText().toString()+"\n"+
                         "ph no -->\n"+editTextmobileno.getText().toString()+"\n"+
-                        "email -->\n"+editTextemail.getText().toString());
+                        "email -->\n"+editTextemail.getText().toString()+"\n");
         String Datetime;
         Calendar c = Calendar.getInstance();
         SimpleDateFormat dateformat = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss aa");
